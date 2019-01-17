@@ -1,0 +1,59 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topheader {
+    margin: 10px 30px;
+}
+
+#heroimage {
+    width: 360px;
+    align-content: center;
+    margin: auto;
+    display: block;
+    border: solid black 2pt;
+}
+
+#myname {
+    text-align: center;
+}
+
+.biotext {
+    margin: 20px 100px;
+}
+
+.contactlist {
+    margin: 10px 30px;
+}
+
+.listitself {
+    margin: 10px 30px;
+}
+
+/*.headerline {
+    background-color: slategray;
+    padding: 10px 0px;
+    width: 100%;
+    margin: 0px;
+
+}*/
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.middlearea div h1 img p ul li {
+    column-span: 2/3;
+}
+
+.leftarea {
+    background-color: gray;
+    column-span: 1/2;
+}
+
+.rightarea {
+    background-color: gray;
+    column-span: 3/4;
+}
